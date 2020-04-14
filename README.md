@@ -1,5 +1,10 @@
 # Tecnologia em Análise e Desenvolvimento de Sistemas
+---
+<div align="center">
+<img src="https://portal.coren-sp.gov.br/wp-content/uploads/2014/11/logo%20uninove.png")>
+</div>
 
+---
 Esse repositório foi criado para acompanhar os projetos que serão feitos durante o curso que comecei em 2020.
 
 Conforme for progredindo durante os semestres mais pastas serão adcionadas e seus conteúdos serão constantemente atualizados.
