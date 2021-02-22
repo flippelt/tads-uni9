@@ -1,0 +1,10 @@
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\projetoInicial\bin\Debug\projetoInicial.exe.config
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\projetoInicial\bin\Debug\projetoInicial.exe
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\projetoInicial\bin\Debug\projetoInicial.pdb
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\projetoInicial\obj\Debug\projetoInicial.csprojAssemblyReference.cache
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\projetoInicial\obj\Debug\projetoInicial.Properties.Resources.resources
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\projetoInicial\obj\Debug\projetoInicial.csproj.GenerateResource.cache
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\projetoInicial\obj\Debug\projetoInicial.csproj.CoreCompileInputs.cache
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\projetoInicial\obj\Debug\projetoInicial.exe
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\projetoInicial\obj\Debug\projetoInicial.pdb
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\projetoInicial\obj\Debug\projetoInicial.frmSoma.resources

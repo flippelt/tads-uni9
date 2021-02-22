@@ -1,0 +1,10 @@
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\prjAtividade01_Posto\obj\Debug\prjAtividade01_Posto.csprojAssemblyReference.cache
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\prjAtividade01_Posto\obj\Debug\prjAtividade01_Posto.frmPosto.resources
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\prjAtividade01_Posto\obj\Debug\prjAtividade01_Posto.Properties.Resources.resources
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\prjAtividade01_Posto\obj\Debug\prjAtividade01_Posto.csproj.GenerateResource.cache
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\prjAtividade01_Posto\obj\Debug\prjAtividade01_Posto.csproj.CoreCompileInputs.cache
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\prjAtividade01_Posto\bin\Debug\prjAtividade01_Posto.exe.config
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\prjAtividade01_Posto\bin\Debug\prjAtividade01_Posto.exe
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\prjAtividade01_Posto\bin\Debug\prjAtividade01_Posto.pdb
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\prjAtividade01_Posto\obj\Debug\prjAtividade01_Posto.exe
+C:\Users\le_ma\Documents\GitHub\tads-uni9\ProgramacaoVisual\ProjetosC\prjAtividade01_Posto\obj\Debug\prjAtividade01_Posto.pdb
