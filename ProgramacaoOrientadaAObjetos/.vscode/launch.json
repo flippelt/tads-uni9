@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Exercicio2",
+            "request": "launch",
+            "mainClass": "Exercicio2",
+            "projectName": "ProgramacaoOrientadaAObjetos_22967544"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio1",
+            "request": "launch",
+            "mainClass": "Exercicio1",
+            "projectName": "ProgramacaoOrientadaAObjetos_22967544"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
