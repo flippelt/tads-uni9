@@ -1,6 +1,6 @@
-package DesenvolvimentoWeb.aula1903.target.java.controle;
+package DesenvolvimentoWeb.aula1903.target.classes.controle;
 
-import java.io.io.IOException;
+import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
