@@ -34,7 +34,38 @@ class _HomeState extends State<Home> {
                 Icons.local_gas_station_rounded,
                 size: 160.0,
                 color: Colors.lightBlue[900],
+              ),
+              TextFormField(
+                textAlign: TextAlign.center,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
+                style: TextStyle(color: Colors.lightBlue[900], fontSize: 26.0),
+                decoration: InputDecoration(
+                    labelText: "Valor da Gasolina",
+                    labelStyle: TextStyle(color: Colors.lightBlue[900])),
+              ),
+              TextFormField(
+                textAlign: TextAlign.center,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
+                style: TextStyle(color: Colors.lightBlue[900], fontSize: 26.0),
+                decoration: InputDecoration(
+                    labelText: "Valor da Álcool",
+                    labelStyle: TextStyle(color: Colors.lightBlue[900])),
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 20.0, bottom: 20.0),
+                child: Container(
+                  height: 50.0,
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text('Verificar'),
+                    style: ElevatedButton.styleFrom(
+                        primary: Colors.lightBlue[900],
+                        onPrimary: Colors.white,
+                        textStyle: TextStyle(fontSize: 25.0)),
+                  ),
+                ),
               )
+              //PARAMOS AQUI
             ],
           ),
         ),
