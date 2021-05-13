@@ -13,6 +13,22 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  TextEditingController alcoolcontroller = TextEditingController();
+  TextEditingController gasolinacontroller = TextEditingController();
+  String _resultado = "Informe os valores";
+  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
+  void _calculaCombustivelIdeal() {
+    double vAlcool = double.parse(alcoolcontroller.text.replaceAll(',', '.'));
+    double vGas = double.parse(gasolinacontroller.text.replaceAll(',', '.'));
+    double proporcao = vAlcool / vGas;
+
+    setState(() {
+      _resultado =
+          (proporcao < 0.7) ? "Abasteça com Álcool" : "Abasteça com Gasolina";
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,15 +43,19 @@ class _HomeState extends State<Home> {
       body: SingleChildScrollView(
         padding: EdgeInsets.fromLTRB(10.0, 0, 10.0, 0),
         child: Form(
+          key: _formKey,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Icon(
-                Icons.local_gas_station_rounded,
+                Icons.local_gas_station,
                 size: 160.0,
                 color: Colors.lightBlue[900],
               ),
               TextFormField(
+                controller: gasolinacontroller,
+                validator: (value) =>
+                    value.isEmpty ? "Informe o valor da gasolina" : null,
                 textAlign: TextAlign.center,
                 keyboardType: TextInputType.numberWithOptions(decimal: true),
                 style: TextStyle(color: Colors.lightBlue[900], fontSize: 26.0),
@@ -44,6 +64,9 @@ class _HomeState extends State<Home> {
                     labelStyle: TextStyle(color: Colors.lightBlue[900])),
               ),
               TextFormField(
+                controller: alcoolcontroller,
+                validator: (value) =>
+                    value.isEmpty ? "Informe o valor do Álcooo" : null,
                 textAlign: TextAlign.center,
                 keyboardType: TextInputType.numberWithOptions(decimal: true),
                 style: TextStyle(color: Colors.lightBlue[900], fontSize: 26.0),
@@ -56,7 +79,11 @@ class _HomeState extends State<Home> {
                 child: Container(
                   height: 50.0,
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      if (_formKey.currentState.validate()) {
+                        _calculaCombustivelIdeal();
+                      }
+                    },
                     child: Text('Verificar'),
                     style: ElevatedButton.styleFrom(
                         primary: Colors.lightBlue[900],
@@ -64,8 +91,12 @@ class _HomeState extends State<Home> {
                         textStyle: TextStyle(fontSize: 25.0)),
                   ),
                 ),
+              ),
+              Text(
+                _resultado,
+                textAlign: TextAlign.center,
+                style: TextStyle(color: Colors.lightBlue[900], fontSize: 26.0),
               )
-              //PARAMOS AQUI
             ],
           ),
         ),
